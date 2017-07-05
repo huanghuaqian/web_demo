@@ -1,0 +1,55 @@
+table{
+    margin: auto;
+    width: 90%;
+    border-color: darkgray;
+    border-collapse: collapse;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+div{
+    background-color: white;
+    width: 710px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+body{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0px;
+    color: #000000;
+    background-color: #0d7792;
+}
+
+img {
+     text-align: right;
+     width: 180px;
+     height: 76px;
+}
+
+a{
+    color: #ff0099;
+    text-align: right;
+}
+
+h4{
+    color: #003399;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+.object-header{
+    height: 25px;
+    font-weight: bold;
+    color: black;
+}

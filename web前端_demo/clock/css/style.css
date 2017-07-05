@@ -1,0 +1,278 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px;
+    border: none;
+}
+
+* {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px;
+    border: none;
+    cursor: default;
+}
+
+#container {
+    width: 600px;
+    height: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px #b8b8b8;
+    overflow: hidden;
+}
+
+// container of menu
+.menu-container {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    margin-top: 5px;
+    border-bottom: 1px solid #bababa;
+}
+
+.menu-container > .menu-detail {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    font: 600 20px Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    color: #a8aaa7;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+
+// show of messaage
+
+.container-span {
+    width: 100%;
+    height: 720px;
+    margin-top: 10px;
+}
+
+
+// span of calculator
+
+#calculator-container {
+    width: 400px;
+    height: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.calculator-show {
+    width: 395px;
+    height: 99px;
+    font: 600 40px Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    color: #f1740e;
+    text-align: right;
+    line-height: 140px;
+    border: 1px solid #b4b0ac;
+    border-bottom: none;
+    overflow: hidden;
+}
+
+.calculator-buttongroup {
+    width: 396px;
+    height: 494px;
+    border-left: 1px solid #b4b0ac;
+    border-bottom: 1px solid #b4b0ac;
+}
+
+.calculator-button {
+    float: left;
+    width: 98px;
+    height: 98px;
+    font: 600 20px Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    text-align: center;
+    color: #67635f;
+    line-height: 98px;
+    border-right: 1px solid #b4b0ac;
+    border-top: 1px solid #b4b0ac;
+    cursor: pointer;
+}
+
+.button-largnumber {
+    width: 197px;
+}
+
+.button-symbol1 {
+    background: #d9d9d9;
+    color: #f1740e;
+}
+
+.button-symbol {
+    background: #d9d9d9;
+}
+
+.calculator-button:active {
+    background: #b89b84;
+}
+
+
+// the span of clock
+
+#clock-container {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background: #ebebea;
+}
+
+#mycanvas {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.clock-date {
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font: 600 30px Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    text-align: center;
+    line-height: 50px;
+    color: #ccc;
+    text-shadow: -1px -1px 0 #fff, 1px 1px 0 #333, 1px 1px 0 #444;
+    cursor: default;
+}
+
+
+/*--     the span of register      --*/
+
+#register-container {
+    width: 500px;
+    height: 700px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #D98527;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.register-span {
+    width: 400px;
+    height: 620px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.register-cell {
+    width: 100%;
+    height: 90px;
+    font: 100 20px Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+}
+
+.register-cell > .register-cellspan {
+    width: 99%;
+    height: 50px;
+    border: 1px solid #b5b8ba;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.register-cell > .register-cellspan > .register-text {
+    float: left;
+    width: 110px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: #9d9e9f;
+}
+
+.register-cell > .register-cellspan > .register-input {
+    float: left;
+    width: 285px;
+    height: 100%;
+}
+
+.register-input > input {
+    float: left;
+    width: 250px;
+    height: 100%;
+    text-align: left;
+    line-height: 50px;
+    padding-left: 10px;
+    font: 100 18px Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    color: #8c8c8c;
+    outline: none;
+}
+
+.register-input > .loading-span {
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin-top: 17px;
+}
+
+.register-profile {
+    height: 160px;
+}
+
+.register-profile > .register-cellspan {
+    height: 120px;
+}
+
+.register-input > textarea {
+    width: 270px;
+    height: 92%;
+    margin-top: 5%;
+    outline: none;
+    resize: none;
+    font: 100 18px Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    color: #8c8c8c;
+}
+
+.rigester-submit {
+    width: 200px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    font: 600 24px Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    text-align: center;
+    line-height: 40px;
+    background: #0f82f5;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.rigester-submit:active {
+    background: #0354a5;
+    color: #bcbdbd;
+}
+
+.register-msg {
+    width: 100%;
+    height: 20px;
+    margin-top: 3px;
+    font: 100 14px Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    color: #9d9e9f;
+}
+
+.register-msg > .img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.register-msg > .msg {
+    float: left;
+    width: 300px;
+    height: 100%;
+}
